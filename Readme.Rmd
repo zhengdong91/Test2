@@ -42,6 +42,10 @@ fbind(a, b)
 freq_out(iris$Species)
 ```
 
+```{r, tidy=TRUE}
+Top20GdpPercap(2002)
+```
+
 #### Some useful links:
 + [Write your own R package, Part One](https://stat545-ubc.github.io/packages04_foofactors-package-01.html)
 + [Write your own R package, Part Two](https://stat545-ubc.github.io/packages05_foofactors-package-02.html)

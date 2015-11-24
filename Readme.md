@@ -13,13 +13,13 @@ library(gapminder)
 
 ``` r
 # load_all()
-devtools::install_github("zhengdong91/hw8")
+devtools::install_github("zhengdong91/Test2")
 #> Using github PAT from envvar GITHUB_PAT
-#> Downloading GitHub repo zhengdong91/hw8@master
-#> Installing hw8
+#> Downloading GitHub repo zhengdong91/Test2@master
+#> Installing Test2
 #> "G:/R/R-32~1.2/bin/x64/R" --no-site-file --no-environ --no-save  \
 #>   --no-restore CMD INSTALL  \
-#>   "C:/Users/ZhengD/AppData/Local/Temp/Rtmpa8JYEy/devtools55246aa732b1/zhengdong91-hw8-bb09c40"  \
+#>   "C:/Users/ZhengD/AppData/Local/Temp/Rtmpi6Pkel/devtoolsa88874663c66/zhengdong91-Test2-b327cfb"  \
 #>   --library="G:/R/R-3.2.2/library" --install-tests
 library(Test2)
 ```

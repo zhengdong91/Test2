@@ -3,9 +3,13 @@ Title: What the Package Does (one line, title case)
 Version: 0.0.0.9000
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
-Depends: R (>= 3.2.2)
+Depends: 
+    R (>= 3.2.2)
 License: What license is it under?
 LazyData: true
 URL: https://github.com/zhengdong91/Test2
 BugReports: https://github.com/zhengdong91/Test2/issues
-Imports: dplyr
+Imports: 
+    dplyr,
+    gapminder
+RoxygenNote: 5.0.0
