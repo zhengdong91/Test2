@@ -8,3 +8,4 @@ License: What license is it under?
 LazyData: true
 URL: https://github.com/zhengdong91/Test2
 BugReports: https://github.com/zhengdong91/Test2/issues
+Imports: dplyr

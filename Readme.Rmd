@@ -19,6 +19,7 @@ We will use the `devtools` package to facilitate package development. `Devtools`
 
 ```{r, tidy=TRUE}
 library(devtools)
+library(gapminder)
 ```
 
 ```{r, tidy=TRUE}
@@ -39,6 +40,11 @@ fbind(a, b)
 
 ```{r, tidy=TRUE}
 freq_out(iris$Species)
+```
+
+
+```{r, tidy=TRUE}
+Top20GdpPercap(2002)
 ```
 
 #### Some useful links:
