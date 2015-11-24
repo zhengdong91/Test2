@@ -18,7 +18,7 @@ devtools::install_github("zhengdong91/Test2")
 #> Installing Test2
 #> "G:/R/R-32~1.2/bin/x64/R" --no-site-file --no-environ --no-save  \
 #>   --no-restore CMD INSTALL  \
-#>   "C:/Users/ZhengD/AppData/Local/Temp/RtmpG8uqZN/devtools34c82d286dea/zhengdong91-Test2-e4a1af1"  \
+#>   "C:/Users/ZhengD/AppData/Local/Temp/Rtmp0Gg0Tm/devtools537c25f01bcd/zhengdong91-Test2-801d00e"  \
 #>   --library="G:/R/R-3.2.2/library" --install-tests
 library(Test2)
 ```
@@ -35,6 +35,17 @@ fbind(a, b)
 #> [1] character hits      your      eyeballs  but       integer   where it 
 #> [8] counts   
 #> Levels: but character counts eyeballs hits integer where it your
+```
+
+``` r
+freq_out(iris$Species)
+#> Source: local data frame [3 x 2]
+#> 
+#>            x     n
+#>       (fctr) (int)
+#> 1     setosa    50
+#> 2 versicolor    50
+#> 3  virginica    50
 ```
 
 #### Some useful links:
