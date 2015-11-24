@@ -18,8 +18,8 @@ Top20GdpPercap <- function(input_year) {
   }else if(length(input_year) > 1){
     stop('Please provide only 1 year!')
   }
-  lifet <- gapminder::gapminder %>% filter(year == input_year) %>% droplevels() %>%
-    select(country, gdpPercap) %>% arrange(-gdpPercap)
+  lifet <- gapminder::gapminder dplyr::%>% filter(year == input_year) dplyr::%>% droplevels() dplyr::%>%
+    select(country, gdpPercap) dplyr::%>% arrange(-gdpPercap)
 
   knitr::kable(lifet[1:20, ])
 }

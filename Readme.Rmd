@@ -42,7 +42,6 @@ fbind(a, b)
 freq_out(iris$Species)
 ```
 
-
 ```{r, tidy=TRUE}
 Top20GdpPercap(2002)
 ```

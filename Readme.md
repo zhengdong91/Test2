@@ -8,6 +8,7 @@ We will use the `devtools` package to facilitate package development. `Devtools`
 
 ``` r
 library(devtools)
+library(gapminder)
 ```
 
 ``` r
@@ -18,7 +19,7 @@ devtools::install_github("zhengdong91/Test2")
 #> Installing Test2
 #> "G:/R/R-32~1.2/bin/x64/R" --no-site-file --no-environ --no-save  \
 #>   --no-restore CMD INSTALL  \
-#>   "C:/Users/ZhengD/AppData/Local/Temp/Rtmp0Gg0Tm/devtools537c25f01bcd/zhengdong91-Test2-801d00e"  \
+#>   "C:/Users/ZhengD/AppData/Local/Temp/RtmpAfrKSb/devtools6f14c5757d2/zhengdong91-Test2-e7a5579"  \
 #>   --library="G:/R/R-3.2.2/library" --install-tests
 library(Test2)
 ```
