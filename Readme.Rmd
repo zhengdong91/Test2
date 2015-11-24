@@ -30,13 +30,8 @@ library(Test2)
 
 ## Function Testing
 
-There are four functions in the package, we designed `Quantiles` and `Top20GdpPercap` functions to deal with the gapminder dataset, `Quantiles` return the difference of a numeric variable, and `Top20GdpPercap` return the top 20 GdpPercap countries in a particular year. I also inplemented two functions `fbind` and `freq_out` Jenny shared with us in the classes as a practice. 
-
-```{r, tidy=TRUE}
-a <- factor(c("character", "hits", "your", "eyeballs"))
-b <- factor(c("but", "integer", "where it", "counts"))
-fbind(a, b)
-```
+There are four functions in the package, we designed `Quantiles` and `Top20GdpPercap` functions to deal with the gapminder dataset, `Quantiles` return the difference of a numeric variable, and `Top20GdpPercap` return the top 20 GdpPercap countries in a particular year. I also inplemented two functions `fbind` and `freq_out` Jenny 
+shared with us in the classes as a practice. 
 
 ```{r, tidy=TRUE}
 freq_out(iris$Species)
@@ -44,6 +39,12 @@ freq_out(iris$Species)
 
 ```{r, tidy=TRUE}
 Top20GdpPercap(2002)
+```
+
+```{r, tidy=TRUE}
+a <- factor(c("character", "hits", "your", "eyeballs"))
+b <- factor(c("but", "integer", "where it", "counts"))
+fbind(a, b)
 ```
 
 #### Some useful links:
